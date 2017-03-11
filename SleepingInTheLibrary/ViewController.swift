@@ -45,6 +45,55 @@ class ViewController: UIViewController {
     // TODO: Write the network code here!
     //the inefficient way
     //let url = URL(string: "https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key=7e409e2c5721ab34176500da91303333&gallery_id=5704-72157622566655097&extras=url_m&format=json&nojsoncallback=1&api_sig=42fccc011b0a53dbec82f2a88a0dc530")
-    
+   isWorking()
   }
+  
+  //takes a dict of key-value pairs in the url and returns a string of these pairs with the correct format- each pair is seperates by an ampersand
+  private func escapedParameters(parameters: [String:AnyObject]) -> String {
+  
+    if parameters.isEmpty{
+      return ""
+    }
+    else{
+      //array to store each key value pair as it is formatted
+      var key_value_pairs = [String]()
+
+      //iterate the dictionary
+      for (key, val) in parameters{
+        //assusmption: keys are always safe ASCII characters
+        
+        //convert value to string
+        let stringVal = "\(val)"
+        
+        //convert stringVal to an ASCII compliant format
+        //https://developer.apple.com/reference/foundation/nsstring/1411946-addingpercentencoding
+        //https://developer.apple.com/reference/foundation/nscharacterset/1416698-urlqueryallowed
+        let escapedVal = stringVal.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+        
+        //now have key and value as safe ASCII strings
+        //appending them to array
+        key_value_pairs.append(key + "=" + "\(escapedVal!)")
+      }
+      
+      return "?\(key_value_pairs.joined(separator: "&"))"
+    }
+  }
+  
+  //testing escapedParameters()
+  private func test_escapedParameters(){
+    let someParameters = [
+      "blah" : "blah blah",
+      "ios" : "networking",
+      "test" : "success"
+    ]
+    
+    print(escapedParameters(parameters: someParameters as [String : AnyObject]))
+    //?blah=blah%20blah&test=success&ios=networking
+  }
+
+  
+  private func isWorking(){
+    test_escapedParameters()
+  }
+  
 }
