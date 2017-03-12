@@ -10,16 +10,18 @@ Total time spent: slightly more than 3 hours
 
 The most useful things I have learned/discovered in this course:
 
-[NSURLSession](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/URLLoadingSystem/Articles/UsingNSURLSession.html#//apple_ref/doc/uid/TP40013509-SW1)
+- [NSURLSession](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/URLLoadingSystem/Articles/UsingNSURLSession.html#//apple_ref/doc/uid/TP40013509-SW1)
 
-[JSONSerialization](https://developer.apple.com/reference/foundation/jsonserialization)
+- [JSONSerialization](https://developer.apple.com/reference/foundation/jsonserialization)
 	A class to convert bytes of JSON data into objects
 
-Gained better understanding of how to use Postman
+- Gained better understanding of how to use Postman
 
-What I learned/relearned on
-Day 1: 
-making a request and deserializing JSON
+**Summary of what I coded**: 
+1. Sent an HTTP request using flick API to get list of photos in a gallery
+2. Deserialzed the returned JSON object to randomly pick a photo's URL
+3. Used this url to get an image and display it
+*Evertime the 'Grab New Image' button is pressed this process is repeated*
 
 ![screenshot 1] (https://github.com/DeeptanshuM/SleepingInTheLibrary/blob/master/Simulator%20Screen%20Shot%20Mar%2011%2C%202017%2C%209.23.32%20PM.png)
 
