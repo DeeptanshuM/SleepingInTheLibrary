@@ -27,8 +27,7 @@ The most useful things I have learned/discovered in this course:
 
 *Evertime the 'Grab New Image' button is pressed this process is repeated*
 
-![screenshot 1] (https://github.com/DeeptanshuM/SleepingInTheLibrary/blob/master/Simulator%20Screen%20Shot%20Mar%2011%2C%202017%2C%209.23.32%20PM.png)
+![screenshot 1] (https://github.com/DeeptanshuM/SleepingInTheLibrary/blob/master/Simulator%20Screen%20Shot%20Mar%2011%2C%202017%2C%209.57.24%20PM.png)
 
 
-
-![screenshot 2] (https://github.com/DeeptanshuM/SleepingInTheLibrary/blob/master/Simulator%20Screen%20Shot%20Mar%2011%2C%202017%2C%209.23.46%20PM.png)
+![screenshot 2] (https://github.com/DeeptanshuM/SleepingInTheLibrary/blob/master/Simulator%20Screen%20Shot%20Mar%2011%2C%202017%2C%209.57.34%20PM.png)
