@@ -1,4 +1,4 @@
-** Sleeping in the Library**
+**Sleeping in the Library**
 
 Coded an iOS app as part of Udacity's [iOS Networking with Swift](https://www.udacity.com/course/ios-networking-with-swift--ud421) class that I am taking as review/prep from MHacks9. 
 
@@ -21,6 +21,8 @@ What I learned/relearned on
 Day 1: 
 making a request and deserializing JSON
 
-![alt text] (https://github.com/DeeptanshuM/SleepingInTheLibrary/blob/master/Simulator%20Screen%20Shot%20Mar%2011%2C%202017%2C%209.23.32%20PM.png)
+![screenshot 1] (https://github.com/DeeptanshuM/SleepingInTheLibrary/blob/master/Simulator%20Screen%20Shot%20Mar%2011%2C%202017%2C%209.23.32%20PM.png)
 
-![alt text] (https://github.com/DeeptanshuM/SleepingInTheLibrary/blob/master/Simulator%20Screen%20Shot%20Mar%2011%2C%202017%2C%209.23.46%20PM.png)
+
+
+![screenshot 2] (https://github.com/DeeptanshuM/SleepingInTheLibrary/blob/master/Simulator%20Screen%20Shot%20Mar%2011%2C%202017%2C%209.23.46%20PM.png)
