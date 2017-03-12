@@ -6,6 +6,9 @@ JSONSerialization
 	A class to convert bytes of JSON data into objects
 	(link: https://developer.apple.com/reference/foundation/jsonserialization)
 
+Curly braces in postman -> indicative of JSON obj -> like dict in Swift
+Square brackets in postman -> indicative of JSON array -> like Swift array
+
 What I learned on
 Day 1: 
 making a request, deserializing JSON
